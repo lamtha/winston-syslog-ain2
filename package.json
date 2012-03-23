@@ -1,7 +1,7 @@
 {
   "name": "winston-syslog-ain2",
   "description": "An ain2 based syslog transport for winston",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "author": "",
   "contributors": [
     { }
