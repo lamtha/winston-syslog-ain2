@@ -2,19 +2,36 @@
   "name": "winston-syslog-ain2",
   "description": "An ain2 based syslog transport for winston",
   "version": "0.1.3",
-  "author": "",
+  "author": "lamtha <https://github.com/lamtha>",
   "contributors": [
-    { }
+    {
+      "name": "Hermann Mayer",
+      "email": "hermann.mayer92@gmail.com",
+      "web": "http://hermann-mayer.net"
+    },
+    {
+      "name": "kawa",
+      "email": "mynameiskawasaq@gmail.com"
+    }
   ],
   "repository": {
     "type": "git",
-    "url": "http://github.com/lamtha/winston-syslog-ain2.git" 
+    "url": "http://github.com/lamtha/winston-syslog-ain2.git"
   },
-  "keywords": ["logging", "sysadmin", "tools", "winston", "syslog", "ain2"],
+  "keywords": [
+    "logging",
+    "sysadmin",
+    "tools",
+    "winston",
+    "syslog",
+    "ain2"
+  ],
   "dependencies": {
-    "ain2": "1.1.x",
-    "winston": "0.5.x"
+    "ain2": "^1.3.2",
+    "winston": "^0.8.1"
   },
-  "main": "./lib/winston-syslog-ain2",
-  "engines": { "node": ">= 0.4.0" }
+  "main": "./index",
+  "engines": {
+    "node": ">= 0.8.0"
+  }
 }
